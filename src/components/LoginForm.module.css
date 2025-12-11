@@ -1,0 +1,58 @@
+.container {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4rem;
+  padding-left: 5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+  min-width: 40rem;
+}
+
+.form h4 {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.credentials label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.credentials input {
+  display: block;
+  height: 4rem;
+  margin-bottom: 2rem;
+  border: 2px solid #adb5bd;
+}
+
+.credentials button {
+  margin-top: 3rem;
+  height: 5rem;
+  background-color: #fa5252;
+  border: 2px solid #fa5252;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.credentials p {
+  font-size: 1.6rem;
+}
+
+.credentials p span {
+  color: #ff5652;
+}
