@@ -1,0 +1,134 @@
+.signupImg {
+  width: 30vw;
+  background-image: url("/Signup-hero-img.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.signupImg img {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.form {
+  width: 70vw;
+  padding-left: 10rem;
+  padding-right: 40rem;
+  position: relative;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 40rem;
+  max-width: 60rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header img {
+  align-self: flex-start;
+  margin-bottom: 2rem;
+}
+
+.header h4 {
+  font-size: 3rem;
+  font-family: "Space Grotesk", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.container p {
+  position: absolute;
+  right: 6rem;
+  top: 2rem;
+  font-size: 1.6rem;
+}
+
+.container p span {
+  color: #fa5252;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+}
+
+.credentials label {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.credentials select {
+  display: block;
+  width: 100%; /* make it full width like input */
+  height: 4rem;
+  margin-bottom: 2rem;
+  border: 2px solid #adb5bd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+  background-color: white;
+  appearance: none; /* removes default arrow on some browsers */
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+/* Hover and focus styles */
+.credentials select:focus {
+  border-color: #fa5252;
+  box-shadow: 0 0 6px rgba(250, 82, 82, 0.4);
+}
+
+/* Optional: Style the options inside the select */
+.credentials select option {
+  font-size: 1.6rem;
+  padding: 0.5rem; /* some spacing inside options */
+  font-weight: 400;
+}
+
+.credentials input {
+  height: 4rem;
+  border: 2px solid #adb5bd;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.credentials input:focus {
+  border-color: #fa5252;
+  box-shadow: 0 0 6px rgba(250, 82, 82, 0.4);
+  outline: none;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.credentials button {
+  margin-top: 3rem;
+  height: 5rem;
+  background-color: #fa5252;
+  border: 2px solid #fa5252;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.credentials button:hover {
+  background-color: #e04444; /* slightly darker */
+  border-color: #e04444;
+  box-shadow: 0 8px 25px rgba(250, 82, 82, 0.4);
+  transform: translateY(-3px);
+}

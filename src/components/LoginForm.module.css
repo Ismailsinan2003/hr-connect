@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   gap: 4rem;
-  box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15), 0 25px 55px rgba(0, 0, 0, 0.25);
 }
 
 .credentials {
@@ -23,6 +23,7 @@
   font-size: 3.2rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .credentials label {
@@ -36,6 +37,17 @@
   height: 4rem;
   margin-bottom: 2rem;
   border: 2px solid #adb5bd;
+  padding: 1rem;
+}
+
+.credentials input:focus {
+  border-color: #fa5252;
+  box-shadow: 0 0 6px rgba(250, 82, 82, 0.4);
+  outline: none;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  font-size: 1.6rem;
+  padding: 1rem;
 }
 
 .credentials button {
@@ -47,6 +59,14 @@
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.credentials button:hover {
+  background-color: #e04444; /* slightly darker */
+  border-color: #e04444;
+  box-shadow: 0 8px 25px rgba(250, 82, 82, 0.4);
+  transform: translateY(-3px);
 }
 
 .credentials p {
